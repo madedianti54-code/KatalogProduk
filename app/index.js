@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     left: -30,
   },
   content: { flex: 1, paddingHorizontal: spacing.lg, justifyContent: 'center' },
-  title: { fontSize: 32, fontWeight: '800', color: colors.text },
+  title: { fontSize: 24, fontWeight: '800', color: colors.text },
   subtitle: { marginTop: 10, fontSize: 15, lineHeight: 22, color: colors.textMuted },
   button: {
     marginTop: spacing.lg,
