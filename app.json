@@ -5,7 +5,9 @@
     "scheme": "pinkieaccessories",
     "plugins": [
       "expo-router",
-      "expo-status-bar"
+      "expo-status-bar",
+      "expo-asset",
+      "expo-font"
     ],
     "version": "1.0.0",
     "orientation": "portrait",

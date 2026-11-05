@@ -25,7 +25,7 @@ export default function WelcomeScreen() {
 
         <Pressable
           style={({ pressed }) => [styles.button, pressed && { opacity: 0.85 }]}
-          onPress={() => alert('Halaman Home belum dibuat')}
+          onPress={() => router.replace('/(tabs)/home')}
         >
           <Text style={styles.buttonText}>Mulai Belanja</Text>
           <Ionicons name="arrow-forward" size={18} color={colors.primary} />
